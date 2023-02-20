@@ -10,7 +10,8 @@ public:
     {
         // given that can't be used
         // sort(nums.begin(), nums.end());
-        int l, m = 0;
+        int l = 0;
+        int m = 0;
         int h = nums.size() - 1;
         while (m <= h)
         {
